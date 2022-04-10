@@ -16,4 +16,4 @@ RUN ${HOME}/.cargo/bin/cargo fuzz build
 
 FROM ubuntu:20.04
 
-COPY --from=builder target/x86_64-unknown-linux-gnu/release/demangle /
+COPY --from=builder rustc-demangle/target/x86_64-unknown-linux-gnu/release/demangle /
