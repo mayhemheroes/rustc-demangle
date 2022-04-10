@@ -1,0 +1,5 @@
+project: rustc-demangle
+target: rustc-demangle
+
+cmds:
+  - cmd: /demangle
